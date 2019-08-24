@@ -4,7 +4,7 @@ class Solution:
         nums.sort()
         
         for i in range(len(nums)-2):
-            left = i + 1
+            left = i + 1 
             right = len(nums)-1
             
             while left < right:

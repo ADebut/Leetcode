@@ -1,4 +1,4 @@
-class Solution:
+class Solution: 
     def intToRoman(self, num: int) -> str:
         roman=''
         symb = ['I','V','X', 'L', 'C', 'D', 'M']

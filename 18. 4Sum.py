@@ -8,7 +8,7 @@ class Solution:
                 left = j + 1
                 right = len(nums)-1
 
-                while left < right:
+                while left < right: 
                     if nums[i] + nums[j] + nums[left] + nums[right] < target:
                         left += 1
                     elif nums[i] + nums[j] + nums[left] + nums[right] > target:

@@ -4,7 +4,7 @@ class Solution:
         stack = []
         for c in s:
             if c in mapping:
-                if stack:
+                if stack: 
                     top = stack.pop()
                 else:
                     top = 't'

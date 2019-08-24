@@ -4,7 +4,7 @@
 #         self.val = x
 #         self.next = None
 
-class Solution:
+class Solution: 
     def mergeTwoLists(self, l1: ListNode, l2: ListNode) -> ListNode:
         tail = new_list = ListNode(0)
         while l1 or l2:
