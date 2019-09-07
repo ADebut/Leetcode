@@ -5,3 +5,5 @@ list 可以pop()
 dict.copy()
 
 []*10
+
+Queue+BFS/DFS,先push children 节点 再进入下一层
