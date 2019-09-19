@@ -12,3 +12,5 @@ Queue+BFS/DFS,先push children 节点 再进入下一层
 
 CSP backtracking forward checking unassigned value is empty or constraint fail
 arc-consistency 提早发现该支失败
+
+Heaps 用于排序算法
