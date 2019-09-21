@@ -13,4 +13,20 @@ Queue+BFS/DFS,先push children 节点 再进入下一层
 CSP backtracking forward checking unassigned value is empty or constraint fail
 arc-consistency 提早发现该支失败
 
-Heaps 用于排序算法
+Heap 用于排序算法
+
+动态规划：
+
+满足三个条件之一：
+求最大最小值
+判断是否可行
+统计方案个数
+
+不该用dp的情况：
+求出所有具体方案（dfs）而不是方案个数
+输入的是一个集合而不是序列
+暴力算法的复杂度已经是多项式级别
+Dp适合优化2^n, n! 到 n^2, n^3
+
+leetcode 317 BFS
+leetcode 329 dp
