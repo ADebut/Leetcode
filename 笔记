@@ -29,4 +29,10 @@ Heap 用于排序算法
 Dp适合优化2^n, n! 到 n^2, n^3
 
 leetcode 317 BFS
-leetcode 329 dp
+leetcode 329 dfs + dp(memo)
+
+双向O(n)寻找 每个位置的最大或者最小结果
+
+单调栈
+
+巧用deque
